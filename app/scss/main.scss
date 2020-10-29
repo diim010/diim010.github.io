@@ -3,5 +3,66 @@
 // CUSTOM USER STYLES & IMPORTS
 
 body {
-    background-color: #000;
+    background-color: #fbfbfb;
+    color: #222;
+}
+header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    box-shadow: 1px 2px 15px #c3c3c3;
+}
+main {
+    margin-top: 50px;
+}
+.avatar__wrap {
+    display: flex;
+    justify-content: start;
+}
+.avatar {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: #b3b3b3;
+    box-shadow: 1px 2px 15px #c3c3c3;
+}
+.contacts__wrap {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    .email {
+        color: $textcolor;
+        &:hover {
+            text-decoration: none;
+            color: $accent;
+        }
+    }
+    .social-list {
+        padding: 0;
+        li {
+            display: inline-block;
+            .social {
+                height: 50px;
+                width: 50px;
+                display: inline-block;
+                color: #222;
+                background-repeat: no-repeat;
+                background-size: contain;
+                margin-right: 20px;
+                margin-top: 10px;
+            }
+            .telegram {
+                background-image: url(/images/dest/social/telegram.svg);
+            }
+            .fb {
+                background-image: url(/images/dest/social/facebook.svg);
+            }
+            .skype {
+                background-image: url(/images/dest/social/skype.svg);
+            }
+        }
+    }
+}
+.about__wrap {
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
