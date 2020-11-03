@@ -4,9 +4,12 @@
 ul li {
     list-style: none;
 }
-a:hover {
-    color: $accent;
-    text-decoration: none;
+a {
+    color: #333;
+    &:hover {
+        color: $accent;
+        text-decoration: none;
+    }
 }
 body {
     background-color: #fbfbfb;
