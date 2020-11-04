@@ -23,8 +23,14 @@
             text-align: left;
         }
     }
-    .exp__list li {
-        border-bottom: 1px dashed #222;
+    .exp__list {
+        li {
+            border-bottom: 1px dashed #222;
+        }
+        .point {
+            bottom: -7px;
+            left: 0;
+        }
     }
     .education__list {
         border-left: 2px solid #222;
@@ -59,7 +65,8 @@
         border-left: 1px dashed #222;
         border-bottom: 0;
         padding-top: 50px;
-    }}
+        }
+    }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) { 
