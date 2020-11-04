@@ -1,6 +1,6 @@
 {
-	"name": "diim010 bilerplate",
-	"version": "5.0.0",
+	"name": "diim010bilerplate",
+	"version": "0.0.1",
 	"description": "diim010 project bolierplaye",
 	"main": "index.js",
 	"scripts": {
