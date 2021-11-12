@@ -1,3 +1,8 @@
 .card {
     margin: 15px;
+}   
+.about__wrap p {
+    font-size: 22px;
+    font-weight: 300;
+    line-height: 1.9;
 }
