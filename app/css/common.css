@@ -15,5 +15,57 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 1.9;
 }
 .project__card-thumb img {
-    height: 200px !important;  
+    height: 230px !important;  
+}
+.grad {
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+h1.title {
+    padding-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #222;
+    margin-bottom: 50;
+    text-transform: uppercase;
+}
+.hdln {
+    text-align: center;
+    padding-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #222;
+    margin-bottom: 50;
+    text-transform: uppercase;
+}
+header.header {
+    
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+footer {
+    background: rgb(2,0,36) !important;
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
+
+}
+.card {
+   display: block;
+
+  
+}
+.card img {
+    max-width: 100%;
+    height: audio;
+}
+section {
+    margin-top: 50px !important;
+    margin-bottom: 50px !important;
+}
+.dob__section{
+   padding-top: 100px;
 }
