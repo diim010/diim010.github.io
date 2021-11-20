@@ -141,7 +141,7 @@ footer.site_footer a:hover {
     position: absolute;
     left: 50%;
     top: 50%;
-    background-image: url(img/diia-logo.png);
+    background-image: url(img/diia-logo.svg);
     background-repeat: no-repeat;
     background-position: center;
     margin: -100px 0 0 -100px;
