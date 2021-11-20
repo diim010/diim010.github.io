@@ -12,7 +12,9 @@ body {
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
+    max-height: 100vh;
+    zoom: 0.7;
 }
 .header {
     align-items: center;
