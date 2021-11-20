@@ -4,14 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>dia</title>
    
 	<link rel="icon" href="img/diia-logo.png">
 	<meta property="og:image" content="img/diia-logo.png">
-	
-   
-   
-   
+
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -21,6 +18,9 @@
 
 </head>
 <body>
+    <div id="preloader">
+    <div id="status">&nbsp;</div>
+    </div>
    <div class="wrapper">
     <header class="header">
         <img src="img/diia-logo.svg" alt="">
@@ -132,6 +132,15 @@
         arrows: false   
 
         })
-            </script>   
+</script>   
+<script>
+    // makes sure the whole site is loaded
+    jQuery(window).load(function() {
+    // will first fade out the loading animation
+    jQuery("#status").fadeOut();
+    // will fade out the whole DIV that covers the website.
+    jQuery("#preloader").delay(1000).fadeOut("slow");
+    })
+</script>
 </body>
 </html>
