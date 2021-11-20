@@ -15,7 +15,6 @@ body {
     height: 100vh;
 }
 .header {
-    height: 100vh;
     align-items: center;
     padding-right: 10px;
     padding-left: 10px;
@@ -26,6 +25,7 @@ body {
 
 main .card {
     max-width: 350px;
+    margin-top: 20px;
     background-color: #fff;
     box-shadow: 1px 2ps 10px #222;
 }
@@ -36,13 +36,13 @@ footer {
     margin-top: auto;
     background-color: #fff;
 }
-
 .card {
     padding: 30px 15px;
     margin: 10px;
+    border-radius: 7px;
 }
 .card_title {
-    font-size: 1633px;
+    font-size: 12px;
     font-weight: 600;
 }
 .card_body {
@@ -73,6 +73,7 @@ footer {
     word-break: break-all;
 }
 .card_footer h3 {
+    font-weight: 500;
     text-transform: uppercase;
     font-weight: 600;
 }
