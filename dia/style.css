@@ -12,9 +12,10 @@ body {
     margin-left: auto;
     display: flex;
     flex-direction: column;
-    min-height: 100vh;
+    height: 100vh;
 }
 .header {
+    height: 100vh;
     align-items: center;
     padding-right: 10px;
     padding-left: 10px;
@@ -22,12 +23,9 @@ body {
     display: flex;
     justify-content: space-between;
 }
-main {
-    margin-top: 20px;
-}
+
 main .card {
     max-width: 350px;
-    margin-top: 20px;
     background-color: #fff;
     box-shadow: 1px 2ps 10px #222;
 }
@@ -38,15 +36,13 @@ footer {
     margin-top: auto;
     background-color: #fff;
 }
-.slick {
-  
-}
+
 .card {
     padding: 30px 15px;
     margin: 10px;
 }
 .card_title {
-    font-size: 18px;
+    font-size: 1633px;
     font-weight: 600;
 }
 .card_body {
@@ -77,7 +73,6 @@ footer {
     word-break: break-all;
 }
 .card_footer h3 {
-    font-weight: 500;
     text-transform: uppercase;
     font-weight: 600;
 }
