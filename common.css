@@ -53,9 +53,14 @@ footer {
     background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%) !important;
 
 }
-.card {
-   display: block;
-
+.cards-wrap a {
+    height: 300px !important;
+    overflow: hidden;
+}
+.project__card {
+   display: block !important;
+    height: 400px !important;
+    overflow: hidden;
   
 }
 .card img {
@@ -69,3 +74,9 @@ section {
 .dob__section{
    padding-top: 100px;
 }
+a.project__card {
+    display: inline-block;
+    height: 300px;
+    overflow: hidden;
+}
+ 
