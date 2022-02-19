@@ -6,6 +6,16 @@ h1, h2, h3, h4, h5, h6 {
     font-family: 'Raleway', sans-serif !important;
     font-weight: 300;
 }
+body {
+    background-color: #f3f3f3 !important;
+}
+a.lng {
+    color: #fff;
+    text-decoration: none;
+}
+a.lng:hover {
+    text-decoration: none;
+}
 .card {
     margin: 15px;
 }   
