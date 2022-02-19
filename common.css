@@ -9,7 +9,7 @@ h1, h2, h3, h4, h5, h6 {
 body {
     background-color: #f3f3f3 !important;
 }
-a.lng {
+.lng {
     color: #fff;
     text-decoration: none;
     padding-bottom: 10px;
