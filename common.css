@@ -12,8 +12,17 @@ body {
 a.lng {
     color: #fff;
     text-decoration: none;
+    padding-bottom: 10px;
+    font-weight: 300;
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 34px;
+    text-shadow: 1px 1px 2px #222;
+    margin-bottom: 50;
+    text-transform: uppercase;
 }
 a.lng:hover {
+    color: #fff;
     text-decoration: none;
 }
 .card {
