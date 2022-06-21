@@ -95,4 +95,53 @@ a.project__card {
     height: 300px;
     overflow: hidden;
 }
- 
+.case__wrap {
+    padding-top: 40px;
+    margin-top: 40px;
+}
+.new_case-pic {
+    padding-top: 30px;
+}
+.new_case-pic img {
+    max-width: 100%;
+    
+}
+.new_case-desk {
+    padding: 30px;
+    color: #222;
+}
+.new_case-desk ul {
+    padding-left: 0;
+    margin-top: ;
+}
+.new_case-desk ul li {
+    text-decoration: none;
+    list-style: none;
+}
+.new_case-desk h2{
+    margin-top: 30px;
+}
+.new_case-desk p {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #333;
+}
+.new_caase-section {
+    
+}
+.new_head {
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 300;
+    color: #333;
+   margin-bottom: 50px;
+}
+.cvc {
+    display: block;
+    height: 1px;
+    border-bottom: 2px solid #c3c3c3;
+    margin-right: 20%;
+    margin-left: 20px;
+    margin-top: 100px;   
+    margin-bottom: 100px;
+}
