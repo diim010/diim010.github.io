@@ -10,3 +10,21 @@ header {
     align-items: center;
     color: #c3c3c3;
 }
+.carousel-item {
+    max-width: 100%;
+    height: 700px;
+}
+.headline__section {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.photo {
+    height: 150px;
+    width: 150px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.photo img {
+    max-width: 100%;
+    width: 150px;
+}
