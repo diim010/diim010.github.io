@@ -28,3 +28,15 @@ header {
     max-width: 100%;
     width: 150px;
 }
+.wrk__wrapper {
+    display: flex;
+    flex-direction: row;
+}
+.wrk__wrapper .wrk_item {
+    width: 30%;
+}
+
+.wrk__wrapper .wrk_item img {
+    max-width: 100%;
+    width: 700px;
+}
