@@ -1,18 +1,22 @@
 
-a, p {
-    font-family: 'Sintony', sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.6;
-
+body {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}-
+a {
+    color: hsl(0, 47%, 50%);
 }
-h1, h2, h3, h4, h5, h6 {
-    letter-spacing: 2px;
-    text-transform: uppercase;
-    font-family: 'Work Sans', sans-serif;
-    font-weight: 400;
+a:hover {
+    text-decoration: none;
 }
-header {
+h5 {
+    margin-bottom: 30px;
+    border-bottom: 2px solid hsl(0, 47%, 50%);;
+    display: inline-block;
+    padding-bottom: 15px;
+}
+header.header__section {
     height: 60px;
     box-shadow: 0px 1px 20px #222;
 
@@ -50,9 +54,10 @@ a.project__block {
 a.project__block:hover {
     text-decoration: none;
     color: #c3c3c3;
-    border-bottom: 4px solid #777;
+    border-bottom: 4px solid hsl(0, 47%, 50%);;
 }
-footer {
+footer.footer__section {
+    margin-top: auto;
     box-shadow: 0px 1px 20px #222;
     padding-top: 50px;
     padding-bottom: 20px;
