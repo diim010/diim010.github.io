@@ -1,0 +1,22 @@
+{
+  "name": "diim010.github.io",
+  "version": "1.0.0",
+  "description": "diim cv",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diim010/diim010.github.io.git"
+  },
+  "author": "diim010",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diim010/diim010.github.io/issues"
+  },
+  "homepage": "https://github.com/diim010/diim010.github.io#readme",
+  "dependencies": {
+    "uikit": "^3.21.0"
+  }
+}

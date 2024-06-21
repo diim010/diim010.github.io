@@ -1,0 +1,10 @@
+{
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "workbench.colorCustomizations": {
+
+
+    },
+    "workbench.chat.experimental.showWelcomeView": true
+    
+}
