@@ -240,7 +240,7 @@ button {
     padding-top: 70px;
     padding-bottom: 70px;
 }
-@media (min-width: 576px) { 
+@media (max-width: 776px) {
     .header__wrap {
         display: block;
     }
