@@ -240,3 +240,30 @@ button {
     padding-top: 70px;
     padding-bottom: 70px;
 }
+@media (min-width: 576px) { 
+    .header__wrap {
+        display: block;
+    }
+    .left,
+    .right {
+        width: 100%;
+    }
+    .about__block {
+        display: block;
+    }
+    .slide__wrap {
+        display: block;
+        height: 400px;
+    }
+    .cap {
+        display: flex;
+        justify-content: center;
+
+        align-items: center;
+        width: 100%;
+        gap: 20px;
+    }
+    .overlay {
+        height: 400px;
+    }
+ }
