@@ -18,9 +18,17 @@ a {
     text-decoration: none;
     color: #07ace4;
 }
+p {
+    font-size: 19px;
+    line-height: 30px;
+}
 a:hover {
     text-decoration: none;
     color: #07ace4;
+}
+ul {
+    margin: 0 !important;
+    padding: 0 !important;
 }
 ul li {
     list-style: none;
@@ -39,13 +47,21 @@ h1 {
     margin-top: 10px;
 }
 h1.headline {
-    text-align: right;
+
+}
+h3.headline {
+    margin-bottom: 50px;
+    text-align: center;
 }
 .headline {
     margin-top: 70px;
     margin-bottom: 70px;
     letter-spacing: 2px;
     color: #b3b3b3;
+}
+header.header {
+    display: flex;
+    justify-content: end;
 }
 .btn {
     color: #fff;
@@ -72,7 +88,21 @@ h1.headline {
     border-right: 1px solid #e6edf3;
     width: 50%;
     display: flex;
-    align-items: center;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+.left h3,
+.left h4 {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+.left h3 {
+    color: #555;
+}
+.left h4 {
+    text-shadow: 1px 0px 0px #7c7979;
+    color: #111;
 }
 .right {
     width: 50%;
@@ -167,7 +197,10 @@ button {
 }
 .cap {
     text-align: right;
-    width: 50%; 
+    width: 50%;
+    color: red; 
+    box-shadow: 3px 1px 20px #111;
+
 }
 .pic {
     overflow: hidden;
@@ -175,8 +208,35 @@ button {
     text-align: center;
 }
 .overlay {
-    height: 70vh;`
+    height: 70vh;
 }
 .pic img {
     width: 90%;
+}
+.about__block {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.uk-slideshow-nav {
+    justify-content: center;
+    margin-top: 20px;
+}
+.uk-slideshow-nav li a {
+    border-radius: 0;
+    width: 100px;
+    height: 1`0px;
+}
+.footer__section .uk-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+.footer__info {
+
+}
+.footer__section {
+    margin-top: 70px;
+    border-top: 1px solid #c3c3c3;
+    padding-top: 70px;
+    padding-bottom: 70px;
 }

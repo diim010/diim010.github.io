@@ -16,11 +16,15 @@
 </head>
 <body>
 <div class="uk-container">
-    <h1 class="headline">Безсмертний <br>Дмитро Сергійович</h1>
+    <header class="header">
+        <div class="title">
+            <h1 class="headline">Безсмертний <br>Дмитро Сергійович</h1>
+        </div>
+    </header>
         <div class="header__wrap">
             <div class="left">
-                <p>Word Press-developer <br>
-                <strong>"From idea to bussines solution"</strong></p>
+                <h3>Word Press-developer</h3>
+                <h4>"From idea to bussines solution"</h4>
             </div>
             <div class="right">
                 <p>
@@ -30,10 +34,23 @@
                 </p>
             </div>
         </div>
-    <div class="about__block uk-grid-small " uk-grid>
+    <div class="about__block ">
+        <div class="skills">
+            <h5>Навички та технології:</h5>
+            <ul uk-scrollspy="target: > li; cls: uk-animation-fade; delay: 500">
+                <li>WordPress, WooCommerce</li>
+                <li>OpenCart</li>
+                <li>HTML, CSS, JS, php, mySQL</li>
+                <li>npm, yarn, gulp, webpack</li>
+                <li>Git(github/ gitlab)</li>
+                <li>Digital Ocean, Amazon AWS, Azure, dedicates and shared hosting providers</li>
+                <li>Figma, Adobe PS</li>
+                <li>Управління проектами</li>
+            </ul>
+        </div>
             <div class="experiense">
                 <h5>Досвід роботи:</h5>
-                <ul>
+                <ul 
                     <li>Фрілансер (Freelance), [2012-2015]<br>
                         - Розробка веб-сайтів для різних клієнтів.<br>
                         - Створення та оптимізація веб-сервісів.<br>
@@ -59,22 +76,6 @@
                     <li>iTop media, [2021-2022]<br>
                         Team lead
                 </ul>
-            </div>
-            
-            <div class="skills">
-                <h5>Навички та технології:</h5>
-                <ul>
-                    <li>WordPress, WooCommerce</li>
-                    <li>OpenCart</li>
-                    <li>HTML, CSS, JS, php, mySQL</li>
-                    <li>npm, yarn, gulp, webpack</li>
-                    <li>Git(github/ gitlab)</li>
-                    <li>Digital Ocean, Amazon AWS, Azure, dedicates and shared hosting providers</li>
-                    <li>Figma, Adobe PS</li>
-                    <li>Управління проектами</li>
-                </ul>
-            </div>
-            <div class="education">
                 <h5>Освіта:</h5>
                 <ul>
                     <li>Дніпровський університет економіки та права (ДУЕП)<br>Економічна кібернетика<br>Роки навчання: 2009-2014</li>
@@ -88,7 +89,7 @@
 </div>
 
 <section class="slider__section-2 ">
-    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow>
+    <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slideshow="animation: scale">
 
         <div class="uk-slideshow-items overlay">
             <div class="slide__wrap">
@@ -100,35 +101,35 @@
             </div>
             <div class="slide__wrap">
                 <div class="cap">
-                    <a href="auto-time.com.ua">auto-time.com.ua</a>
+                    <a href="https://auto-time.com.ua" target="blank">auto-time.com.ua</a>
                     <h1>Auto Time</h1>
                 </div>
                 <div class="pic"><img src="/img/projects/at.png" alt="" ></div>
             </div>
             <div class="slide__wrap">
                 <div class="cap">
-                    <a href="https://www.dopas.dp.ua/">dopas.dp.ua</a>
+                    <a href="https://www.dopas.dp.ua/" target="blank">dopas.dp.ua</a>
                     <h1>DOPAS</h1>
                 </div>
                 <div class="pic"><img src="/img/projects/dopas.png" alt="" ></div>
             </div>
             <div class="slide__wrap">
                 <div class="cap">
-                    <a href="https://mirmatrasov.com/">mirmatrasov.com</a>
+                    <a href="https://mirmatrasov.com/" target="blank">mirmatrasov.com</a>
                     <h1>mirmatrso.com.ua</h1>
                 </div>
                 <div class="pic"><img src="/img/projects/mm.png" alt="" ></div>
             </div>
             <div class="slide__wrap">
                 <div class="cap">
-                    <a href="https://thevoiceofpeace.co.il/">thevoiceofpeace.co.il</a>
+                    <a href="https://thevoiceofpeace.co.il/" target="blank">thevoiceofpeace.co.il</a>
                     <h1>The Voice of Peace</h1>
                 </div>
                 <div class="pic"><img src="/img/projects/vop.png" alt="" ></div>
             </div>
             <div class="slide__wrap">
                 <div class="cap">
-                    <a href="https://vetgroom.com.ua/">Vetgroom</a>
+                    <a href="https://vetgroom.com.ua/" target="blank">Vetgroom</a>
                     <h1>Vetgroom</h1>
                 </div>
                 <div class="pic"><img src="/img/projects/vet.png" alt="" ></div>
@@ -138,15 +139,21 @@
     
         <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slideshow-item="previous"></a>
         <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slideshow-item="next"></a>
-    
     </div>
 </section>                                    
 <footer class="footer__section">
-    <div class="uk-container">
-        <blockquote>Я відкритий для нових можливостей та готовий взяти на себе виклик складних проектів. Готовий надати додаткові деталі та приклади моєї роботи за запитом. З нетерпінням чекаю можливості обговорити ваш проект та внести свій внесок у його успіх.</blockquote>
-        <p>Дякую за увагу.</p>
-        <p>З повагою,<br>Бессмертний Дмитро Сергійович</p>
-        <a href="#modal-example" class="btn" uk-toggle>Написати мені</a>
+    <div class="uk-container ">
+        <div class="footer__info">
+            <p>Дякую за увагу.</p>
+            <p>З повагою,<br>Бессмертний Дмитро Сергійович</p>
+            <a href="#modal-example" class="btn" uk-toggle>Написати мені</a>
+        </div>
+        <div class="footer__about">
+            <blockquote>Я відкритий для нових можливостей та готовий взяти на себе виклик складних проектів. Готовий надати
+                додаткові деталі та приклади моєї роботи за запитом. З нетерпінням чекаю можливості обговорити ваш проект та внести
+                свій внесок у його успіх.</blockquote>
+        </div>
+        
 
     </div>
 </footer>
