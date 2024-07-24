@@ -46,6 +46,7 @@ p {
 h1 {
     margin-top: 10px;
 }
+
 h1.headline {
 
 }
@@ -224,7 +225,7 @@ button {
 .uk-slideshow-nav li a {
     border-radius: 0;
     width: 100px;
-    height: 1`0px;
+    height: 700px;
 }
 .footer__section .uk-container {
     display: grid;
@@ -241,6 +242,13 @@ button {
     padding-bottom: 70px;
 }
 @media (max-width: 776px) {
+    .header_continner {
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background-color: #fff;
+        justify-content: center;
+    }
     .header__wrap {
         display: block;
     }
@@ -266,4 +274,24 @@ button {
     .overlay {
         height: 400px;
     }
+        .header {
+            padding: 0 20px;
+            color: #000;
+            color: #fff;
+            justify-content: start !important;
+        }
+        .headline {
+            color: #000;
+            margin-bottom: 0;
+        }
+        .header__wrap  {
+            padding-top: 0 !important;
+            margin-top: 0;
+        }
+        .right {
+            margin-top: 70px;
+            margin-bottom: 100px;
+            color: #000;
+
+            }        
  }
