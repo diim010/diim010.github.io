@@ -52,13 +52,15 @@ h1.headline {
 }
 h3.headline {
     margin-bottom: 50px;
-    text-align: center;
+    margin-top: 100px;
+    font-size: 32px;
 }
 .headline {
     margin-top: 70px;
     margin-bottom: 70px;
     letter-spacing: 2px;
     color: #b3b3b3;
+    font-size: 34px;
 }
 header.header {
     display: flex;
@@ -80,7 +82,7 @@ header.header {
 }
 .header__wrap {
     margin-top: 50px;
-    margin-bottom: 70px;
+    margin-bottom: 170px;
     display: flex;
     gap: 20px;
     padding: 20px;
@@ -100,6 +102,7 @@ header.header {
 }
 .left h3 {
     color: #555;
+    font-size: 34px;
 }
 .left h4 {
     text-shadow: 1px 0px 0px #7c7979;
@@ -132,6 +135,11 @@ footer {
     padding-bottom: 50px;
 }
 .about__block {
+    margin-top: 70px;
+}
+.subheader {
+    margin-top: 30px;
+    font-size: 28px;
 }
 .experiense {
 
@@ -281,8 +289,7 @@ button {
             justify-content: start !important;
         }
         .headline {
-            color: #000;
-            margin-bottom: 0;
+            margin-bottom: 50px !important;
         }
         .header__wrap  {
             padding-top: 0 !important;
@@ -293,5 +300,14 @@ button {
             margin-bottom: 100px;
             color: #000;
 
-            }        
+        }
+        .footer__section .uk-container {
+            display: block;
+        }
+        .footer__about {
+            margin-top: 50px;
+        }
+    .btn {
+        margin-top: 30px;
+    }
  }
