@@ -274,10 +274,9 @@ button {
     .cap {
         display: flex;
         justify-content: center;
-
+        flex-direction: column;
         align-items: center;
         width: 100%;
-        gap: 20px;
     }
     .overlay {
         height: 400px;
@@ -310,4 +309,7 @@ button {
     .btn {
         margin-top: 30px;
     }
+        .experiense ul li {
+           margin-top: 50px; 
+        }
  }
