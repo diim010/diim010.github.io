@@ -235,11 +235,10 @@ button {
 }
 @media (max-width: 776px) {
     .header_continner {
-        height: 100vh;
         display: flex;
         flex-direction: column;
         background-color: #fff;
-        justify-content: center;
+        justify-content: start  ;
     }
     .header__wrap {
         display: block;
