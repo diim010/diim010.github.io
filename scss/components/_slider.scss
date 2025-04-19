@@ -1,0 +1,24 @@
+.slide__wrap {
+    .pic {
+        height: 70vh;
+    }
+}
+.slider__section {
+    margin-top: 70px;
+    margin-bottom: 70px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    background-color: #3d4a52;
+    box-shadow: inset 1px 1px 5px #000;
+}
+.slide {
+    width: 60%;
+}
+.slider-thumbnav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slider-thumbnav ul li a img {
+    height: 100px !important;
+}
