@@ -106,7 +106,7 @@ header.header {
 }
 .right {
     width: 50%;
-    
+
 }
 .projects__section {
     display: grid;
@@ -124,7 +124,7 @@ header.header {
     width: 100%;
 }
 .capture {
-    padding: 20px;  
+    padding: 20px;
 }
 footer {
     margin-top: 100px;
@@ -132,6 +132,17 @@ footer {
 }
 .about__block {
     margin-top: 70px;
+}
+.skills ul {
+    margin-top: 50px;
+}
+.slider-thumbnav {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.slider-thumbnav ul li a img {
+    height: 100px !important;
 }
 .subheader {
     margin-top: 30px;
@@ -160,7 +171,7 @@ footer {
     background-color: #0d1117;
     border: 1px solid #555;
     box-shadow: 1px 2px 20px #3d3d3d;
-    
+
 }
 .modal__form {
     display: flex;
@@ -194,7 +205,7 @@ button {
 .cap {
     text-align: right;
     width: 50%;
-    color: red; 
+    color: red;
     box-shadow: 3px 1px 20px #111;
 
 }
@@ -293,6 +304,6 @@ button {
         margin-top: 30px;
     }
         .experiense ul li {
-           margin-top: 50px; 
+           margin-top: 50px;
         }
  }
