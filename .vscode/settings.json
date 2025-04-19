@@ -4,7 +4,7 @@
     "workbench.colorCustomizations": {
 
 
-        "activityBar.background": "#7f882bd0",
+        "activityBar.background": "#021e5ad0",
     },
     "workbench.chat.experimental.showWelcomeView": true,
     "liveServer.settings.port": 5501
