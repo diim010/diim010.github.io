@@ -2,6 +2,27 @@
     .pic {
         height: 70vh;
     }
+    @media screen and (max-width: 600px) {
+       padding-top: 50px;
+       margin-top: 50px;
+        
+    }
+    .cap {
+        p {
+            font-size: 14px;
+            line-height: 20px;
+            color: #e6edf3;
+            b {
+                color: $accent;
+            }
+            @media screen and (max-width: 600px) {
+                font-size: 12px;
+                text-align: center;
+                
+                
+            }
+        }
+    }
 }
 .slider__section {
     margin-top: 70px;

@@ -79,6 +79,26 @@ body {
 .slide__wrap .pic {
   height: 70vh;
 }
+@media screen and (max-width: 600px) {
+  .slide__wrap {
+    padding-top: 50px;
+    margin-top: 50px;
+  }
+}
+.slide__wrap .cap p {
+  font-size: 14px;
+  line-height: 20px;
+  color: #e6edf3;
+}
+.slide__wrap .cap p b {
+  color: rgba(243, 10, 41, 0.8431372549);
+}
+@media screen and (max-width: 600px) {
+  .slide__wrap .cap p {
+    font-size: 12px;
+    text-align: center;
+  }
+}
 
 .slider__section {
   margin-top: 70px;
@@ -194,11 +214,6 @@ footer {
 
 .skills ul {
   margin-top: 50px;
-}
-
-.subheader {
-  margin-top: 30px;
-  font-size: 28px;
 }
 
 .slide {
@@ -366,3 +381,5 @@ button {
     margin-top: 50px;
   }
 }
+
+/*# sourceMappingURL=common.css.map*/

@@ -21,11 +21,13 @@
   },
   "homepage": "https://github.com/diim010/diim010.github.io#readme",
   "dependencies": {
-    "uikit": "^3.21.0"
+    "uikit": "^3.21.0",
+    "yarn": "^1.22.22"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.21",
     "browser-sync": "^3.0.4",
+    "browser-sync-webpack-plugin": "^2.3.0",
     "laravel-mix": "^6.0.49",
     "sass": "^1.86.3",
     "sass-loader": "^16.0.5"
